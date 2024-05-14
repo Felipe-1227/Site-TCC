@@ -1,50 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Café Gyn</title>
-  <link rel="shortcut icon" href="css/image/logocafe.jpeg" type="image/x-icon">
-  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap'><link rel="stylesheet" href="css/style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Café Gyn</title>
+    <link
+      rel="shortcut icon"
+      href="css/image/logocafe.jpeg"
+      type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="wrapper">
+      <div class="login_box">
+        <div class="login-header">
+          <span>login</span>
+        </div>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="wrapper">
-  <div class="login_box">
-    <div class="login-header">
-      <span>Login</span>
-    </div>
+        <div class="input_box">
+          <input type="text" id="user" class="input-field" required />
+          <label for="user" class="label">Nome</label>
+          <i class="bx bx-user icon"></i>
+        </div>
 
-    <div class="input_box">
-      <input type="text" id="user" class="input-field" required>
-      <label for="user" class="label">Nome</label>
-      <i class="bx bx-user icon"></i>
-    </div>
+        <div class="input_box">
+          <input type="password" id="pass" class="input-field" required />
+          <label for="pass" class="label">Senha</label>
+          <i class="bx bx-lock-alt icon"></i>
+        </div>
 
-    <div class="input_box">
-      <input type="password" id="pass" class="input-field" required>
-      <label for="pass" class="label">Senha</label>
-      <i class="bx bx-lock-alt icon"></i>
-    </div>
+        <div class="remember-forgot">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Lembrar ?</label>
+          </div>
 
-    <div class="remember-forgot">
-      <div class="remember-me">
-        <input type="checkbox" id="remember">
-        <label for="remember">Lembrar ?</label>
+          <div class="forgot">
+            <a href="paginaRec/pagina_recu.html">Esqueceu a senha?</a>
+          </div>
+        </div>
+
+        <div class="input_box">
+          <!-- <input type="submit" class="input-submit" value="Login"> -->
+          <a
+            href="pag_principal/pagPrincipal.html"
+            class="input-submit"
+            type="submit"
+            >Login</a
+          >
+        </div>
       </div>
-
-      <div class="forgot">
-        <a href="paginaRec/pagina_recu.html">Esqueceu a senha?</a>
-      </div>
     </div>
-
-    <div class="input_box">
-      <!-- <input type="submit" class="input-submit" value="Login"> -->
-      <a href="pag_principal/pagPrincipal.html" class="input-submit" type="submit">Login</a>
-    </div>
-  </div>
-</div>
-  
-</body>
+  </body>
 </html>
