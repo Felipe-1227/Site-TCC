@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../css/globalStyle.css" />
+    <title>Café Gyn</title>
+  </head>
+  <body>
+    <h1>Consulta</h1>
+    <header>
+      <div class="logo">
+        <a href="../pag_principal/pagPrincipal.html">
+          <img src="../css/image/logocafe.jpeg" alt="Logo da Empresa" />
+        </a>
+      </div>
+      <nav>
+        <a href="../pag_orcamento/orcamento.html">Orçamento</a> |
+        <a href="../pag_aluguel/pag_aluguel.html">Aluguel</a> |
+        <a href="../pag_venda/pag_venda.html">Venda</a>
+      </nav>
+    </header>
+
+    <section>
+      <form action="#">
+        <div class="back"></div>
+        <div class="main">
+          <div class="subtitle">
+            <h1>Consulta</h1>
+          </div>
+          <div class="content">
+            <div class="left">
+              <div class="cliente">
+                <p>ID</p>
+                <input type="number" />
+              </div>
+
+              <div class="nome-razao">
+                <p>Nome razão</p>
+                <input type="text" />
+              </div>
+
+              <div class="codigo">
+                <p>Data de nascimento</p>
+                <input type="text" />
+              </div>
+
+              <div class="ativo">
+                <p>CPF</p>
+                <input type="text" />
+              </div>
+
+              <div class="servico">
+                <p>Sexo</p>
+                <select>
+                  <option value="masculino">Masculino</option>
+                  <option value="feminino">Feminino</option>
+                </select>
+              </div>
+            </div>
+            <div class="right">
+              <div class="natureza">
+                <p>RG</p>
+                <input type="text" />
+              </div>
+              <div class="valor">
+                <p>Situação</p>
+
+                <select>
+                  <option value="ativo">Ativo</option>
+                  <option value="inativo">Inativo</option>
+                </select>
+              </div>
+              <div class="pagamento">
+                <p>Endereço</p>
+                <input type="text" />
+              </div>
+              <div class="descricao">
+                <p>Telefone</p>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
